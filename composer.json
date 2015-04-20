@@ -31,12 +31,8 @@
         "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Mail",
         "source": "https://github.com/pear/Mail"
     },
-    "type": "library",
-    "require": {
-        "pear/pear": "*"
-    },
     "require-dev": {
-        "phpunit/phpunit": "*"
+      "phpunit/phpunit": "*"
     },
     "suggest": {
         "pear/net_smtp": "Install optionally via your project's composer.json"
